@@ -1,0 +1,41 @@
+{
+  "name": "snippet-highlight",
+  "version": "1.0.0",
+  "description": "A lightweight, easy-to-use and framework agnostic syntax highlighter for your code examples(snippets) in web applications",
+  "keywords": [],
+  "homepage": "https://github.com/rahulbhooteshwar/snippet-highlight/blob/master/README.md",
+  "author": {
+    "name": "Rahul Bhooteshwar",
+    "email": "rahul.bhooteshwar@gmail.com",
+    "url": "https://rahulbhooteshwar.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulbhooteshwar/snippet-highlight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulbhooteshwar/snippet-highlight/issues",
+    "email": "rahul.bhooteshwar@gmail.com"
+  },
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "unpkg": "dist/ionic.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.0.8",
+    "prismjs": "^1.15.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "~0.15.2",
+    "@stencil/sass": "^0.1.1"
+  },
+  "license": "MIT"
+}

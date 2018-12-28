@@ -1,0 +1,122 @@
+snippet-highlight {
+   .hidden {
+     display: none;
+   }
+    pre {
+        border-radius: 5px;
+      }
+      // toolbar css
+      div.code-toolbar {
+        position: relative;
+      }
+
+      div.code-toolbar > .toolbar {
+        position: absolute;
+        top: 0.3em;
+        right: 0.2em;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
+      }
+
+      div.code-toolbar:hover > .toolbar {
+        opacity: 1;
+      }
+
+      div.code-toolbar > .toolbar .toolbar-item {
+        display: inline-block;
+      }
+
+      div.code-toolbar > .toolbar a {
+        cursor: pointer;
+      }
+
+      div.code-toolbar > .toolbar button {
+        background: none;
+        border: 0;
+        color: inherit;
+        font: inherit;
+        line-height: normal;
+        overflow: visible;
+        padding: 0;
+        -webkit-user-select: none; /* for button */
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+
+      div.code-toolbar > .toolbar a:hover,
+      div.code-toolbar > .toolbar a:focus,
+      div.code-toolbar > .toolbar button:hover,
+      div.code-toolbar > .toolbar button:focus,
+      div.code-toolbar > .toolbar span:hover,
+      div.code-toolbar > .toolbar span:focus {
+        color: inherit;
+        text-decoration: none;
+      }
+      .light {
+        @import './themes/light.scss';
+        .code-toolbar {
+          pre {
+            border-top: solid 10px #2170c4;
+          }
+          .toolbar {
+            opacity: 1;
+            span,
+            a {
+              color: white;
+              font-size: 12px;
+              font-weight: bolder;
+              padding: 8px;
+              background: #2170c4;
+              box-shadow: none;
+              border-radius: 5px;
+              margin-right: 10px;
+              font-family: monospace;
+            }
+            span:hover {
+              color: white;
+            }
+            // a:before {
+            //   content: '📋';
+            //   margin-right: 2px;
+            // }
+            a:hover {
+              color: yellow;
+            }
+          }
+        }
+      }
+
+      .dark {
+        @import './themes/dark.scss';
+        .code-toolbar {
+          pre {
+            border-top: solid 10px #f26428;
+          }
+          .toolbar {
+            opacity: 1;
+            span,
+            a {
+              color: white;
+              font-size: 12px;
+              font-weight: bolder;
+              padding: 8px;
+              background: #f26428;
+              box-shadow: none;
+              border-radius: 5px;
+              margin-right: 10px;
+              font-family: monospace;
+            }
+            span:hover {
+              color: white;
+            }
+            // a:before {
+            //   content: '📋';
+            //   margin-right: 2px;
+            // }
+            a:hover {
+              color: #f9b038;
+            }
+          }
+        }
+      }
+}
