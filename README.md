@@ -141,6 +141,13 @@ new Vue({
 
 > `clike`,  `ruby`, `crystal`,  `csharp`,  `dotnet`,  `markup-templating`,  `markup`,  `xml`,  `html`,  `mathml`,  `svg`,  `django`,  `jinja2`,  `javascript`,  `js`,  `csp`,  `css`,  `d`,  `dart`,  `diff`,  `docker`,  `dockerfile`,  `eiffel`,  `elixir`,  `elm`,  `erb`,  `erlang`,  `flow`,  `fortran`,  `fsharp`,  `gedcom`,  `gherkin`,  `git`,  `glsl`,  `go`,  `graphql`,  `groovy`,  `haml`,  `handlebars`,  `haskell`,  `haxe`,  `hpkp`,  `hsts`,  `http`,  `ichigojam`,  `icon`,  `inform7`,  `ini`,  `io`,  `j`,  `java`,  `jolie`,  `json`,  `jsonp`,  `jsx`,  `julia`,  `keyman`,  `kotlin`,  `latex`,  `less`,  `liquid`,  `lisp`,  `elisp`,  `emacs`,  `emacs-lisp`,  `livescript`,  `lolcode`,  `lua`,  `makefile`,  `markdown`,  `matlab`,  `mel`,  `mizar`,  `monkey`,  `n4js`,  `n4jsd`,  `nasm`,  `nginx`,  `nim`,  `nix`,  `nsis`,  `ocaml`,  `oz`,  `parigp`,  `parser`,  `pascal`,  `objectpascal`,  `perl`,  `php`,  `sql`,  `plsql`,  `powershell`,  `processing`,  `prolog`,  `properties`,  `protobuf`,  `pug`,  `puppet`,  `pure`,  `python`,  `q`,  `qore`,  `r`,  `reason`,  `renpy`,  `rest`,  `rip`,  `roboconf`,  `rust`,  `sas`,  `sass`,  `scala`,  `scheme`,  `scss`,  `smalltalk`,  `smarty`,  `soy`,  `stylus`,  `swift`,  `tap`,  `tcl`,  `textile`,  `tsx`,  `tt2`,  `twig`,  `typescript`,  `ts`,  `velocity`,  `verilog`,  `vhdl`,  `vim`,  `visual-basic`,  `vb`,  `wasm`,  `wiki`,  `xeora`,  `xeoracube`,  `xojo`,  `xquery`,  `yaml`
 
+# Browser Support
+`snippet-highlight` is well verified on all modern browsers using Browser Stack. Using browserstack we make sure cross browser compatibility of the module, so that it works seamlessly on all supported browsers. Browserstack has helped us in identifying issues at very early stage.
+
+[![Browser Stack](https://bstacksupport.zendesk.com/attachments/token/PzdqcKEmprO9zGDgG7ASHgcqi/?name=browserstack-logo-600x315.png)](http://browserstack.com/) 
+
+
+
 # Demo
 
 ## Dark Theme
